@@ -27,7 +27,6 @@
   "devDependencies": {
     "@kenan/eslint-config": "^4.0.0",
     "eslint": "^3.10.2",
-    "lodash.isarray": "^2.4.1",
     "nyc": "^9.0.1",
     "tape": "^4.6.2"
   }
