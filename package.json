@@ -9,6 +9,9 @@
   "repository": "KenanY/carmichaels",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "engines": {
+    "node": "10 || 12 || >=14"
+  },
   "main": "index.js",
   "files": [
     "index.js",
@@ -18,16 +21,14 @@
     "test": "test"
   },
   "scripts": {
+    "coverage": "nyc npm test",
     "lint": "eslint *.js test/*.js",
-    "tests-only": "tape test/index.js",
-    "coverage": "nyc npm run -s tests-only",
-    "pretest": "npm run -s lint",
-    "test": "npm run -s tests-only"
+    "test": "tape test/index.js"
   },
   "devDependencies": {
     "@kenan/eslint-config": "^4.0.0",
     "eslint": "^3.10.2",
-    "nyc": "^9.0.1",
+    "nyc": "^15.1.0",
     "tape": "^4.6.2"
   }
 }
