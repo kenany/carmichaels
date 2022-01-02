@@ -1,0 +1,4 @@
+{
+  "extends": ["local>kenany/renovate-config"],
+  "rangeStrategy": "bump"
+}
