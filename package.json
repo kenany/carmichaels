@@ -10,7 +10,7 @@
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "engines": {
-    "node": "12 || 14 || >=16"
+    "node": "14 || 16 || >=18"
   },
   "main": "index.js",
   "files": [
@@ -26,8 +26,8 @@
     "test": "tape test/index.js"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^9.0.4",
-    "eslint": "^7.32.0",
+    "@kenan/eslint-config": "^10.0.1",
+    "eslint": "^8.31.0",
     "nyc": "^15.1.0",
     "tape": "^5.6.1"
   }
