@@ -6,7 +6,7 @@ from OEIS [A002997][], [A006931][], and [A074379][].
 ## Example
 
 ``` javascript
-var carmichaels = require('carmichaels');
+const carmichaels = require('carmichaels');
 // => [
 // =>   '561',
 // =>   '1105',
@@ -27,7 +27,7 @@ $ npm install carmichaels
 ## API
 
 ``` javascript
-var carmichaels = require('carmichaels');
+const carmichaels = require('carmichaels');
 ```
 
 ### `carmichaels`
